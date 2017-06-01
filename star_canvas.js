@@ -49,12 +49,6 @@ var Star = function() {
 
 }
 
-//画月亮
-function drawMoon() {
-    var moon = new Image();
-    moon.src = "./images/moon.jpg"
-    context.drawImage(moon, -5, -10);
-}
 
 
 
@@ -78,7 +72,6 @@ window.onload = function() {
         rains.push(rain);
     }
 
-    drawMoon(); //绘制月亮
     playStars(); //绘制闪动的星星
     playRains(); //绘制流星
 
